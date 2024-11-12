@@ -1,6 +1,9 @@
 import "./App.css";
+import Greetings from "./components/Greetings";
 import IdCard from "./components/IdCard";
 function App() {
+
+
   return (
     <div className="App">
       <h1> LAB | React Training</h1>
@@ -22,6 +25,14 @@ function App() {
         birth={new Date("1988-05-11")}
         picture="https://randomuser.me/api/portraits/women/44.jpg"
       />
+
+
+
+
+
+     <Greetings lang="es">Juan</Greetings >
+     <Greetings lang="de">Lourdes</Greetings >
+     <Greetings lang="en">Esther</Greetings >
     </div>
   );
 }
